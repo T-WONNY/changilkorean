@@ -1,0 +1,21 @@
+/* Chosen Palette: Warm Neutral with Teal Accent */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f7f4; /* Warm neutral light background */
+    color: #3f3f46; /* Dark gray for text */
+}
+.nav-link {
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+.nav-link.active, .nav-link:hover {
+    color: #0d9488; /* teal-600 */
+    border-bottom-color: #0d9488;
+}
+.accordion-header .arrow {
+    transition: transform 0.3s ease;
+}
+.accordion-header.active .arrow {
+    transform: rotate(180deg);
+}
